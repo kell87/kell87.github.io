@@ -1,0 +1,187 @@
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -299px;
+    width: 300px;
+    /* width: intrinsic; Safari/WebKit используют нестандартное имя
+    width: -moz-max-content; Firefox/Gecko
+    width: -webkit-max-content; Chrome */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+/*    height: 300px;
+    overflow: auto;
+     word-break: break-word;
+    white-space: normal; */     
+    word-break: keep-all;
+    overflow-wrap: break-word; /*Mozilla */
+   /* word-wrap: break-word; */
+}
+
+.third-level-menu-before-last
+{
+    position: absolute;
+    top: -120px;
+    right: -299px;
+    width: 300px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    word-break: keep-all;
+    overflow-wrap: break-word; /*Mozilla */
+}
+
+.third-level-menu-last
+{
+    position: absolute;
+    top: -360px;
+    right: -299px;
+    width: 300px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    word-break: keep-all;
+    overflow-wrap: break-word; /*Mozilla */
+    overflow: auto;
+    max-height: 480px;
+}
+
+.third-level-menu > li, .third-level-menu-before-last > li, .third-level-menu-last > li
+{
+/*     height: 30px;
+    max-height: 60px; */
+    min-height: 30px;
+    background: #999999;
+    padding: 0 10px 0 0;
+    
+}
+.third-level-menu > li:hover { background: #CCCCCC; }
+.third-level-menu-before-last > li:hover { background: #CCCCCC; }
+.third-level-menu-last > li:hover { background: #CCCCCC; }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    max-width: 320px;
+/*     width: 150px; */
+    width: intrinsic; /* Safari/WebKit используют нестандартное имя */ 
+    width: -moz-max-content; /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+    padding: 0 10px 0 0;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+    background: #999999;
+}
+.top-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
+}
+.top-level-menu a:hover { color: #000000; }
+
+
+
+/* Блок с кнопками */
+.social {display: inline-block;}
+.social a {
+	display: table;
+	width: 48px;
+	height: 48px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.4), inset 1px 1px 0px rgba(255,255,255,0.5);
+    
+}
+
+.social a:hover {
+	border-color: #888;
+	opacity: .8;
+}
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+.DNS_Club img {
+  width: 176px;
+  height: 29px;
+  margin-top: 10px;
+}
+.discord a {background: #7289da}
+.email a {background: #5bc7ff}
+.facebook a {background: #3b5998}
+.github a {background: #191919}
+.google a {background: #e34133}
+.odnoklassniki a {background: #f93}
+.skype a {background: #00aff0}
+.steam a {background: #30445d}
+.telegram a {background: #249bd7}
+.twitter a {background: #00acee}
+.viber a {background: #7b519d}
+.vimeo a {background: #5bc7ff}
+.vk a {background: #4a76a8}
+.windows a {background: #125acd}
+.youtube a {background: #c4302b}
+.DNS_Club a {background: #4e4e4e; width: 192px; padding-left: 2px}
+.IXBT_live a {background: #00a86b; width: 48px; height: 48px; }
+.IXBT_live svg {width: auto; height: auto; padding-left: 2px; margin-top: 12px; padding-bottom: 2px;}
+.DNS_Club2 a {background: #000000; width: 48px; height: 48px; justify-content: center; text-align: center}
+/*.DNS_Club2 img {width: auto; height: auto; margin-top: 0px;}*/
+.DNS_Club2 svg {width: 48px; height: auto; margin-top: 1px; margin-bottom: -5px; padding-left: 1px;}
+.dzen a {background: #FFFFFF; justify-content: center; text-align: center}
+.dzen svg {width: auto; height: auto; margin-top: 1px; margin-bottom: -5px; padding-left: 1px;}
+.mysku a {background: #4d4d93; justify-content: center; text-align: center}
+.mysku svg {width: auto; height: auto; margin-top: 1px; margin-bottom: -5px; padding-left: 1px; border-radius: 6px;}
+.mysku2 a {background: #4d4d93; justify-content: center; text-align: center}
+.mysku2 img {width: 48px; height: auto; margin-top: 1px; border-radius: 6px; margin-bottom: -4px; padding-left: 2px;}
