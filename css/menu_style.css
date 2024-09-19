@@ -13,12 +13,14 @@
     display: none;   
     word-break: keep-all;
     overflow-wrap: break-word; /*Mozilla */
+    overflow: auto;
+    max-height: 480px;
 }
 
 .third-level-menu-before-last
 {
     position: absolute;
-    top: -180px;
+    top: -210px;
     right: -299px;
     width: 300px;
     list-style: none;
@@ -63,7 +65,7 @@
     position: absolute;
     top: 30px;
     left: 0;
-    max-width: 320px;
+    max-width: 350px;
 /*     width: 150px; */
     width: intrinsic; /* Safari/WebKit используют нестандартное имя */ 
     width: -moz-max-content; /* Firefox/Gecko */
