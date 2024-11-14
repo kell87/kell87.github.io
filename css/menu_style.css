@@ -2,8 +2,8 @@
 {
     position: absolute;
     top: 0;
-    right: -299px;
-    width: 300px;
+    right: -329px;
+    width: 330px;
     /* width: intrinsic; Safari/WebKit используют нестандартное имя
     width: -moz-max-content; Firefox/Gecko
     width: -webkit-max-content; Chrome */
@@ -21,8 +21,8 @@
 {
     position: absolute;
     top: -210px;
-    right: -299px;
-    width: 300px;
+    right: -329px;
+    width: 330px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -34,9 +34,9 @@
 .third-level-menu-last
 {
     position: absolute;
-    top: -360px;
-    right: -299px;
-    width: 300px;
+    top: -420px;
+    right: -329px;
+    width: 330px;
     list-style: none;
     padding: 0;
     margin: 0;
