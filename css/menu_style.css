@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+.head {
+    display: flex;
+}
+.statistic {
+    font-size: 2.0rem;
+    width: 370px;
+    height: 90px;
+    padding: 10px 10px 10px 10px;
+    float: inline-end;
+    margin-inline-start: 30%;
+    margin-top: 50px;
+    border: thick double #019262;
+    border-radius: 10px;
+}
+.statistic p {
+    display: ruby;
+    align-items: center;
+    justify-content: center;
+    
+}
+#counts {
+
+    font-family: 'Audiowide';}
+
 .third-level-menu
 {
     position: absolute;
