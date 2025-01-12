@@ -99,12 +99,14 @@
     padding: 0;
     margin: 0;
     display: none;
+    word-break: keep-all;
+    overflow-wrap: break-word; /*Mozilla */
 }
 
 .second-level-menu > li
 {
     position: relative;
-    height: 30px;
+    min-height: 30px;
     background: #999999;
     padding: 0 10px 0 0;
 }
