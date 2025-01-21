@@ -201,8 +201,9 @@
 .IXBT_live a {background: #00a86b; width: 48px; height: 48px; }
 .IXBT_live svg {width: 126px; height: auto; margin-top: 1px; margin-bottom: -5px; padding-left: 1px;}
 .dzen a {background: #FFFFFF; justify-content: center; text-align: center}
+.dzen img {width: 120px; height: auto; margin-top: 1px; border-radius: 6px; margin-bottom: -4px; padding-left: 2px;}
 .dzen svg {width: auto; height: auto; margin-top: 1px; margin-bottom: -5px; padding-left: 1px;}
 .mysku a {background: #4d4d93; justify-content: center; text-align: center}
 .mysku svg {width: auto; height: auto; margin-top: 1px; margin-bottom: -5px; padding-left: 1px; border-radius: 6px;}
 .mysku2 a {background: #4d4d93; justify-content: center; text-align: center}
-.mysku2 img {width: 48px; height: auto; margin-top: 1px; border-radius: 6px; margin-bottom: -4px; padding-left: 2px;}
+.mysku2 img {width: 168px; height: auto; margin-top: 1px; border-radius: 6px; margin-bottom: -4px; padding-left: 2px;}
