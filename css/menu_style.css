@@ -120,7 +120,7 @@
     max-height: 480px;
 }
 
-.third-level-menu > li, .third-level-menu-before-last > li, .third-level-menu-last > li, .third-level-menu-second > li, .third-level-menu-third > li
+.third-level-menu > li, .third-level-menu-before-last > li, .third-level-menu-last > li, .third-level-menu-second > li, .third-level-menu-third, .third-level-menu-9 > li
 {
 /*     height: 30px;
     max-height: 60px; */
@@ -326,5 +326,6 @@ header {
     color: #666;
     padding: 0 10px;
 }
+
 
 
