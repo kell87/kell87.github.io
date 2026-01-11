@@ -74,6 +74,22 @@
     max-height: 480px;
 }
 
+.third-level-menu-third-9
+{
+    position: absolute;
+    top: -210px;
+    right: -329px;
+    width: 330px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;   
+    word-break: keep-all;
+    overflow-wrap: break-word; /*Mozilla */
+    overflow: auto;
+    max-height: 480px;
+}
+
 .third-level-menu-before-last
 {
     position: absolute;
@@ -310,3 +326,4 @@ header {
     color: #666;
     padding: 0 10px;
 }
+
