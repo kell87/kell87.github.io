@@ -5,7 +5,7 @@
 .statistic {
     font-size: 2.0rem;
     width: 370px;
-    height: 90px;
+    height: auto;
     padding: 10px 10px 10px 10px;
     float: inline-end;
     margin-inline-start: 30%;
